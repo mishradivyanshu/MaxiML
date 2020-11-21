@@ -23,6 +23,7 @@ def smallesteSubstr_maxDistictChar(str):
                 minl = subs_lenght 
     return minl 
 if __name__ == "__main__": 
-    str = "abcda"
+    print("Enter the string")
+    str = input()
     l = smallesteSubstr_maxDistictChar(str); 
     print(l)
